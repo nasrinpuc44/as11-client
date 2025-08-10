@@ -43,7 +43,7 @@ export default function Navbar() {
 
     
           <div className="hidden md:flex items-center gap-6">
-            {/* Public Links */}
+            
             <div className="flex gap-4">
               {navLinks
                 .filter(link => !link.isPrivate)
