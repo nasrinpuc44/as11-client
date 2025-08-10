@@ -75,7 +75,7 @@ export default function Navbar() {
               </div>
             )}
 
-            {/* Dark Mode Toggle */}
+           
             <Button
               variant="ghost"
               size="icon"
@@ -86,7 +86,7 @@ export default function Navbar() {
               {darkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
             </Button>
 
-            {/* User Profile */}
+           
             {user ? (
               <div className="relative ml-4">
                 <button 
@@ -124,9 +124,8 @@ export default function Navbar() {
             )}
           </div>
 
-          {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center gap-2">
-            {/* Dark Mode Toggle for mobile */}
+           
             <Button
               variant="ghost"
               size="icon"
@@ -149,7 +148,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
