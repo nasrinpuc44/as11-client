@@ -58,7 +58,7 @@ export default function Navbar() {
                 ))}
             </div>
 
-            {/* Private Links (visible when logged in) */}
+            
             {user && (
               <div className="flex gap-4">
                 {navLinks
