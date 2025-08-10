@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/Avatar";
-import { Menu, X, ChevronDown, Sun, Moon } from "lucide-react"; // Added Sun and Moon icons
+import { Menu, X, ChevronDown, Sun, Moon } from "lucide-react"; 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
