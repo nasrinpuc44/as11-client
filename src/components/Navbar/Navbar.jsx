@@ -41,7 +41,7 @@ export default function Navbar() {
             <span className="font-bold text-xl">LinguaLearn</span>
           </Link>
 
-          {/* Desktop Navigation */}
+    
           <div className="hidden md:flex items-center gap-6">
             {/* Public Links */}
             <div className="flex gap-4">
